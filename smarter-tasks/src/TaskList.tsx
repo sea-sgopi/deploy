@@ -4,9 +4,7 @@ import Task from "./Task";
 interface Props {
   tasks: TaskItem[];
 }
-interface TaskItem {
-  title: string;
-}
+
 interface State {}
 class TaskList extends React.Component<Props, State> {
   
